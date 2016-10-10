@@ -57,4 +57,13 @@ while(1):
 
 time_elapsed=time.time()-s_time;
 
+<<<<<<< HEAD
 print "\nCongrats! you have taken %d seconds out of the standard %d seconds"%(time_elapsed,std)
+=======
+print "Congrats! you have taken %d seconds out of the standard %d seconds"%(time_elapsed,std)
+
+'''
+1. The game should be lost if i press a wrong key.
+
+'''
+>>>>>>> a74477e660a1cd230bd6fc33833c814b3dd590b1

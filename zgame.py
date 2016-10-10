@@ -23,6 +23,11 @@ while(1):
 		if count==finish:
 			count=0
 			break
+	else:
+		print "You have locked the game with a wrong move !"
+		exit()
+
+		
 
 print "Go Down"
 while(1):
@@ -33,6 +38,9 @@ while(1):
 		if count==finish:
 			count=0
 			break
+	else:
+		print "You have locked the game with a wrong move !"
+		exit()
 
 print "Take a Right   		             ",
 while(1):
@@ -43,7 +51,10 @@ while(1):
 		if count==finish:
 			count=0
 			break
+	else:
+		print "You have locked the game with a wrong move !"
+		exit()
 
 time_elapsed=time.time()-s_time;
 
-print "Congrats! you have taken %d seconds out of the standard %d seconds"%(time_elapsed,std)
+print "\nCongrats! you have taken %d seconds out of the standard %d seconds"%(time_elapsed,std)
